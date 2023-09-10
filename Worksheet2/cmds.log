@@ -1,5 +1,5 @@
     1  clear
-    2   exit
+    2  exit
     3  ssh divijf23@172.20.25.9
     4  exit() q
     5  exit
