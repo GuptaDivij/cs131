@@ -439,12 +439,208 @@
   439  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
   440  ls
   441  cd cs131/
-  442  cs Worksheet2
-  443  cd Worksheet
-  444  cd Worksheet2
-  445  ls
-  446  cat counts.txt 
-  447  vi counts.txt 
-  448  cat c
-  449  cat counts.txt 
-  450  history > cmds.log
+  442  ls
+  443  cd Worksheet2
+  444  ls
+  445   grp “Eminem” spotify-2023.csv
+  446  grp "United States" Global\ YouTube\ Statistics.csv 
+  447  grep "United States" Global\ YouTube\ Statistics.csv 
+  448  grep "Music" Global\ YouTube\ Statistics.csv 
+  449  wc man
+  450  man wc
+  451  man grep
+  452  grep "United States" Global\ YouTube\ Statistics.csv | wc -l > counts.txt
+  453  ls
+  454  grep "United States" Global\ YouTube\ Statistics.csv | wc -w > counts.txt
+  455  cat counts.txt 
+  456  u
+  457  rm counts.txt 
+  458  grep "United States" Global\ YouTube\ Statistics.csv | wc -l
+  459  grep "Music" Global\ YouTube\ Statistics.csv | wc -l 
+  460  grep "Music" Global\ YouTube\ Statistics.csv | wc -w
+  461  grep "Music" Global\ YouTube\ Statistics.csv | wc -l >> counts.txt
+  462  grep "Music" Global\ YouTube\ Statistics.csv | wc -w >> counts.txt
+  463  cat counts.txt 
+  464  cd cs131/
+  465  cs Worksheet2
+  466  cd Worksheet
+  467  cd Worksheet2
+  468  ls
+  469  cat counts.txt 
+  470  vi counts.txt 
+  471  cat c
+  472  cat counts.txt 
+  473  history > cmds.log
+  474  ls
+  475  git init
+  476  git add .
+  477  git status
+  478  git commit -m "Added all the files and finished the work"
+  479  git push --set-upstream origin master
+  480  git remote add origin git@github.com:GuptaDivij/cs131.git
+  481  git remote
+  482  git push --set-upstream origin master
+  483  git status
+  484  cd ..
+  485  ls
+  486  git init
+  487  git add .
+  488  git status
+  489   git remote add origin git@github.com:GuptaDivij/cs131.git
+  490  git commit -m "Finished worksheet2"
+  491  git status
+  492  git push
+  493  git status
+  494  git push origin 'main'
+  495  ls
+  496  cd Worksheet2
+  497  ls
+  498  git log
+  499  git status
+  500  cd ..
+  501  git status
+  502  git log
+  503  git show --color --pretty=format:%b 0b2e366c047f1013f390d719a5c639d1ccf07bc8
+  504  git add *
+  505  git status
+  506  git commit -m "Worksheet2"
+  507  git pull
+  508  git status
+  509  git ls-files
+  510  cd Worksheet2
+  511  git init
+  512  git status
+  513  git add .
+  514  git status
+  515  cd ..
+  516  git add -f Worksheet2/cmds.log
+  517  git add -f ./Worksheet2/cmds.log
+  518   git rm --cached Worksheet2
+  519  git status
+  520  ls
+  521  git add --all
+  522  git status
+  523  git help submodule
+  524  git rm --cached Worksheet2
+  525  l
+  526  ls
+  527  git status
+  528  cd ..
+  529  git branch
+  530  cd cs131/
+  531  git branch
+  532  git info
+  533  git rm -r --cached Worksheet2
+  534  ls
+  535  git rm -r --cached Worksheet2/
+  536  git rm -r Worksheet2
+  537  git status
+  538  git add Worksheet2/
+  539  git rm --cached Worksheet2
+  540  git commit -m "Remove Worksheet2 from tracking"
+  541  git push
+  542  git status
+  543  git add Worksheet2/
+  544  git rm --cached -r Worksheet2/
+  545  git rm --cached -r -f Worksheet2/
+  546  git commit -m "Remove Worksheet2 from Git tracking"
+  547  git add Worksheet2/
+  548  git commit -m "Add Worksheet2 directory and its contents"
+  549  git push origin master
+  550  git push origin main
+  551  git rm --cached Worksheet2
+  552  git commit -m "Remove Worksheet2 from Git tracking"
+  553  git status
+  554  cd Worksheet2/
+  555  ls
+  556  vi cmds.log 
+  557  git status
+  558  ls
+  559  vi counts.txt 
+  560  ls
+  561  rm 'Global YouTube Statistics.csv' 
+  562  ls
+  563  git status
+  564  cd ..
+  565  git status
+  566  git add Worksheet2/cmds.log
+  567  git add Worksheet2/counts.txt
+  568  git add Worksheet2/Global YouTube Statistics.csv
+  569  git status
+  570  git add Worksheet2
+  571  git rm --cached Worksheet2
+  572  git rm -f --cached Worksheet2
+  573  git status
+  574  git commit -m "added files in worksheet2" 
+  575  cd Worksheet2/
+  576  git status
+  577  cd ..
+  578  git status
+  579  git add Worksheet1 
+  580  git status
+  581  git rm --cached -r Worksheet2/
+  582  ls
+  583  cd cs131/
+  584  ls
+  585  git commit -m "Changed"
+  586  git push
+  587  cd Worksheet2
+  588  ls
+  589  cd ..
+  590  mkdir Worksheet3
+  591  ls
+  592  cd cs131/
+  593  ls
+  594  git rm Worksheet2/
+  595  git status
+  596  git rm --cached -r Worksheet2/
+  597  git init
+  598  git rm --cached -r Worksheet2/
+  599  git log
+  600  cd cs131/
+  601  ls
+  602  cs Worksheet3
+  603  cd Worksheet3
+  604  ls
+  605  cd ..
+  606  mv Worksheet2/counts.txt Worksheet3
+  607  mv Worksheet2/cmds.log Worksheet3
+  608  ls
+  609  cd Worksheet2
+  610  ls
+  611  cd ..
+  612  rm -r Worksheet2
+  613  ls
+  614  cd Worksheet3
+  615  ls
+  616  cd ..
+  617  mv Worksheet3 Worksheet2
+  618  ls
+  619  cd Worksheet2
+  620  ls
+  621  cd ..
+  622  git init
+  623  git add .
+  624  git status
+  625  git commit -m "Added Worksheet2"
+  626  git push origin main
+  627  git status
+  628  cd Worksheet2
+  629  vi cmds.log 
+  630  cat cmds.log
+  631  vi counts.txt 
+  632  cd ..
+  633  git add .
+  634  git commit -m "Finished Worksheet2"
+  635  git push
+  636  ls
+  637  cs131
+  638  cd cs131
+  639  ls
+  640  cd Worksheet2
+  641  ls
+  642  cat cmds.log
+  643  history
+  644  rm cmds.log
+  645  ls
+  646  history > cmds.log
