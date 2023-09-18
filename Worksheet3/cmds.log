@@ -1,0 +1,785 @@
+    1  clear
+    2  exit
+    3  ssh divijf23@172.20.25.9
+    4  exit() q
+    5  exit
+    6  pwd
+    7  git init
+    8  ls
+    9  pwd
+   10  exit
+   11  pwd
+   12  man passwd
+   13  passwd
+   14  ls
+   15  git clone https://github.com/GuptaDivij/cs131.git
+   16  mkdir Worksheet1
+   17  history > cnds.log
+   18  ls
+   19  rm
+   20  rm cnds.log
+   21  ls
+   22  history > cmds.log
+   23  ls
+   24  git add cmds.log
+   25  git commit -m "File added with history of commands"
+   26  git push origin main
+   27  git push
+   28  git push https://github.com/GuptaDivij/cs131.git
+   29  pwd
+   30  ls
+   31  rm cmds.log
+   32  ls
+   33  cd Worsksheet1
+   34  cd Worksheet1
+   35  history > cmds.log
+   36  rm cmds.log
+   37  cd.
+   38  cd..
+   39  cd ..
+   40  ls
+   41  pwd
+   42  history > cmds.log
+   43  git add cmds.log
+   44  git commit -m "Added history of commands file to git"
+   45  cd cs131
+   46  ls
+   47  pwd
+   48  mkdir Worksheet1
+   49  cd ..
+   50  rm Worksheet1
+   51  ,s
+   52  ls
+   53  rmdir Worksheet1
+   54  ls
+   55  cd cs131
+   56  ls
+   57  history > cmds.log
+   58  ls
+   59  cd ..
+   60  rm cmds.log
+   61  ls
+   62  cd cs131
+   63  ls
+   64  git add cmds.log
+   65  git commit -m "added file with history of commands"
+   66  git push origin main
+   67  exit
+   68  wget www.github.com
+   69  pwd
+   70  ls
+   71  cd cs131
+   72  ls
+   73  git add cmds.log
+   74  git status
+   75  git commit -m "Added"
+   76  git config --global user.email "guptadivij02@gmail.com"
+   77  git config --global user.name "GuptaDivij"
+   78  git status
+   79  git commit -m "Added"
+   80  ls -al ~/.ssh
+   81  ssh-keygen -t ed25519 -C "guptadivij02@gmail.com"
+   82  ls
+   83  cd ..
+   84  ls
+   85  cd ..
+   86  ls
+   87  cd aaronf23/
+   88  cd divijf23/
+   89  ls
+   90  ls -a
+   91  cd .ssh
+   92  ls
+   93  cd ..
+   94  ls
+   95  eval "$(ssh-agent -s)"
+   96  cd .ssh
+   97  ls
+   98  cd id_ed25519
+   99  id_ed25519
+  100  rm id_ed25519
+  101  ls
+  102  rm id_ed25519.pub
+  103  ls
+  104  cat ~/.ssh/id_rsa.pub
+  105  sh-keygen -t ed25519 -C "guptadivij02@gmail.com"
+  106  ssh-keygen -t ed25519 -C "guptadivij02@gmail.com"
+  107  eval "$(ssh-agent -s)"
+  108  open ~/.ssh/config
+  109  touch ~/.ssh/config
+  110  open ~/.ssh/config
+  111  cd ~/.ssh/config
+  112  ~/.ssh/config
+  113  ssh-add ~/.ssh/id_ed2551
+  114  ssh-add ~/.ssh/id_ed25519
+  115  pbcopy < ~/.ssh/id_ed25519.pub
+  116  ls
+  117  cat id_ed25519
+  118  nanp ~/.ssh/config
+  119  nano ~/.ssh/config
+  120  ssh-add ~/.ssh/id_ed25519
+  121  pbcopy < ~/.ssh/id_ed25519.pub
+  122  ls
+  123  cat id_ed25519
+  124  pwd
+  125  pwd
+  126  ls
+  127  rmdir -r cs131
+  128  rm -r cs131
+  129  cd cs131
+  130  ls
+  131  ls -a
+  132  cd ..
+  133  rm -r cs131
+  134  ls
+  135  ls
+  136  rm cs131
+  137  rmdir cs131
+  138  wget www.github.com
+  139  ls
+  140  mkdir Worksheet1
+  141  ls
+  142  cd Worksheet1/
+  143  history > cmds.log
+  144  ls
+  145  git init
+  146  git add cmds.log
+  147  git status
+  148  git commit -m "Added the history file"
+  149  git config --global user.email "guptadivij02@gmail.com"
+  150  git config --global user.name "GuptaDivij"
+  151   cd ~/.ssh && ssh-keygen
+  152  pwd
+  153  ls
+  154  rm index.html
+  155  ls
+  156  clear() exit()
+  157  systemctl enable --now cockpit.socket
+  158  ls
+  159  cd Worksheet1/
+  160  git push --set-upstream origin master
+  161  git remote add origin git@github.com:GuptaDivij/cs131.git
+  162  git commit -m "Everything done"
+  163  touch test.txt
+  164  git add .
+  165  git status
+  166  git commit -m "added a file just to test, grader please ignore"
+  167  git push --set-upstream origin master
+  168  git remote -v
+  169  ssh -Tv git@github.com
+  170  ls
+  171  ls -a
+  172  cd ..
+  173  ls
+  174  ls -a
+  175  cd .git
+  176  ls
+  177  cd config
+  178  cat config
+  179  cd branches
+  180  ls
+  181  cd ..
+  182  ls
+  183  git branch -M main
+  184  git status
+  185  cd ..
+  186  ls
+  187  cd divijf23/
+  188  ls
+  189  cd Worksheet1/
+  190  ls
+  191  rm test.txt
+  192  ls
+  193  cat cmds.log
+  194  cd ..
+  195  ls
+  196  rmdir Worksheet1
+  197  rm Worksheet1
+  198  cd Worksheet1/
+  199  ls
+  200  rm cmds.log
+  201  cd ..
+  202  rmdir Worksheet1
+  203  rm -r lampp
+  204  rm -r Worksheet1
+  205  ls
+  206  rmdir Worksheet1
+  207  rm -r Worksheet1
+  208  ls
+  209  rm index.html
+  210  ls
+  211  ls -a
+  212  cat .bash_history
+  213  mkdir Worksheet1
+  214  ls -ltr
+  215  cd Worksheet1/
+  216  history > cmds.log
+  217  git init
+  218  git add .
+  219  git status
+  220  git remote -v
+  221  git config --global user.email "guptadivij02@gmail.com"
+  222  git config --global user.name "GuptaDivij"
+  223  git remote -v
+  224  cd ~/.ssh && ssh-keygen
+  225  cat id_rsa.pub
+  226  git remote add origin git@github.com:GuptaDivij/cs131.git
+  227  git commit -m "Added history log file"
+  228  git push --set-upstream origin master
+  229  git push
+  230  git push --set-upstream origin main
+  231  git push -u origin main
+  232  chmod /mnt/scratch/FA23_CS131_Ashish/divijf23/.ssh/config
+  233  git status
+  234  chmod 700 /mnt/scratch/FA23_CS131_Ashish/divijf23/.ssh
+  235  chmod 600 /mnt/scratch/FA23_CS131_Ashish/divijf23/.ssh/config
+  236  git push -u origin main
+  237  cat /mnt/scratch/FA23_CS131_Ashish/divijf23/.ssh/config:
+  238  cd /mnt/scratch/FA23_CS131_Ashish/divijf23/.ssh/config
+  239  cd /mnt/scratch/FA23_CS131_Ashish/divijf23/.ssh/
+  240  ls -a
+  241  cat config 
+  242  vi config 
+  243  cd ~
+  244  ls
+  245  Worksheet1/
+  246  cd Worksheet1/
+  247  ls
+  248  git push -u origin main
+  249  git push origin main
+  250  git status
+  251  git branch
+  252  git init
+  253  git add .
+  254  git status
+  255  git config --list 
+  256  cd ~/.ssh/
+  257  ls
+  258   cat id_rsa.pub
+  259  git status 
+  260  cd ~/Worksheet1/
+  261  git status
+  262  git commit -m "Added history of commands" 
+  263  git push --set-upstream origin master
+  264  git remote add origin git@github.com:GuptaDivij/cs131.git
+  265  git push --set-upstream origin master
+  266  cd ~/.ssh
+  267  ls
+  268  cat known_hosts 
+  269  cd ..
+  270  rm -r .ssh/
+  271  ls -a 
+  272  cd ~/.ssh && ssh-keygen
+  273  mkdir ~/.ssh
+  274  cd ~/.ssh && ssh-keygen
+  275  ssh-keygen -t ed25519 -C "guptadivij02@gmail.com"
+  276  ls
+  277  pbcopy < ~/.ssh/id_ed25519.pub
+  278  cat id_ed25519.pub
+  279  cat id_ed25519
+  280  cd 
+  281  cd Worksheet1/
+  282  git branch -M main
+  283  git remote add origin git@github.com:GuptaDivij/cs131.git
+  284  git push -u origin main
+  285  git status
+  286  git log
+  287  exit() exit ()
+  288  exit
+  289  ls
+  290  cd Worksheet1/
+  291  ls
+  292  git status
+  293  ls -a
+  294  cd .
+  295  ls
+  296  cd .git
+  297  ls
+  298  cd ..
+  299  ls
+  300   cd ~/.ssh && ssh-keygen
+  301  cat id_rsa.pub
+  302  ls
+  303  cd ..
+  304  ls
+  305  cd Worksheet1
+  306  ls
+  307  git add cmds.log
+  308  git commit -m "Added the history log"
+  309  git remote add origin git@github.com:GuptaDivij/cs131.git
+  310  git status
+  311  git push -u origin main
+  312  git add.
+  313  git add .
+  314  git status
+  315  git commit -m "Everything added"
+  316  ls
+  317  cd Worksheet1/
+  318  ls
+  319  cd ..
+  320  git status
+  321  cd ,,
+  322  cd ..
+  323  ls
+  324  cd divijf23/
+  325  ls
+  326  git add .
+  327  status
+  328  git status
+  329  git restore .
+  330  git status
+  331  git restore --staged .
+  332  git status
+  333  git add Worksheet1
+  334  ls
+  335  git status
+  336  git commit -m "Added Worksheet to cs131"
+  337  git push -u origin main
+  338  git pull
+  339  cd ~
+  340  git status
+  341  git clone https://github.com/GuptaDivij/cs131.git
+  342  ls
+  343  cd cs131
+  344  ls
+  345  mkdir Worksheet1
+  346  ls
+  347  mv cmds.log . Worksheet1
+  348  rm cmds.log
+  349  ls
+  350  cd Worksheet1
+  351  ls
+  352  cat cmds.log 
+  353  git status
+  354  cd ..
+  355  git status
+  356  git add .
+  357  git status
+  358  git commit -m "Changed the location of cmds.log"
+  359  git push -u origin main
+  360  git config --list 
+  361  cd ~/.ssh/
+  362  ls
+  363  cat known_hosts 
+  364  git status
+  365  cd ..
+  366  ls
+  367  cd cs131/
+  368  ls
+  369  git status
+  370  git push origin main 
+  371  git config user.password "Aquaman3361"
+  372  git push origin main 
+  373  cd ..
+  374  ls
+  375  cd Worksheet1/
+  376  ls
+  377  git status
+  378  git pull 
+  379  git push origin main 
+  380  cd ..
+  381  ls
+  382  cd divijf23/
+  383  rm -r cs131/
+  384  y
+  385  s
+  386  ls
+  387  git clone git@github.com:GuptaDivij/cs131.git
+  388  ls
+  389  cd cs131/
+  390  ls
+  391  mv cmds.log . ./Worksheet1
+  392  mkdir Worksheet1
+  393  mv cmds.log . ./Worksheet1
+  394  ls
+  395  git status
+  396  git add .
+  397  git status
+  398  git commit -m "Created Worksheet1" 
+  399  git push -u origin main 
+  400  ls
+  401  cd cs131
+  402  ls
+  403  cd ..
+  404  rmdir Worksheet1
+  405  rm -r Worksheet1/
+  406  yes
+  407  ls
+  408  rm -r Worksheet1
+  409  ls
+  410  mkdir practiseVI
+  411  ls
+  412  cd practiseVI/
+  413  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/spotify-2023.csv
+  414  ls
+  415  cd practiseVI/
+  416  vi spotify-2023.csv 
+  417  vi sort.txt
+  418  cat sort
+  419  cat sort.txt 
+  420  vi sort sort.txt
+  421  ls
+  422  rm sort
+  423  ls
+  424  sort sort.txt
+  425  cat sort.txt 
+  426  vi sort.txt 
+  427  ls
+  428  cat sort.txt 
+  429  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  430  ls
+  431  rm 'Global YouTube Statistics.csv' 
+  432  ls
+  433  cd cs131/
+  434  ls
+  435  mkdir Worksheet2
+  436  ls
+  437  cd Worksheet2
+  438  ls
+  439  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  440  ls
+  441  cd cs131/
+  442  ls
+  443  cd Worksheet2
+  444  ls
+  445   grp “Eminem” spotify-2023.csv
+  446  grp "United States" Global\ YouTube\ Statistics.csv 
+  447  grep "United States" Global\ YouTube\ Statistics.csv 
+  448  grep "Music" Global\ YouTube\ Statistics.csv 
+  449  wc man
+  450  man wc
+  451  man grep
+  452  grep "United States" Global\ YouTube\ Statistics.csv | wc -l > counts.txt
+  453  ls
+  454  grep "United States" Global\ YouTube\ Statistics.csv | wc -w > counts.txt
+  455  cat counts.txt 
+  456  u
+  457  rm counts.txt 
+  458  grep "United States" Global\ YouTube\ Statistics.csv | wc -l
+  459  grep "Music" Global\ YouTube\ Statistics.csv | wc -l 
+  460  grep "Music" Global\ YouTube\ Statistics.csv | wc -w
+  461  grep "Music" Global\ YouTube\ Statistics.csv | wc -l >> counts.txt
+  462  grep "Music" Global\ YouTube\ Statistics.csv | wc -w >> counts.txt
+  463  cat counts.txt 
+  464  cd cs131/
+  465  cs Worksheet2
+  466  cd Worksheet
+  467  cd Worksheet2
+  468  ls
+  469  cat counts.txt 
+  470  vi counts.txt 
+  471  cat c
+  472  cat counts.txt 
+  473  history > cmds.log
+  474  ls
+  475  git init
+  476  git add .
+  477  git status
+  478  git commit -m "Added all the files and finished the work"
+  479  git push --set-upstream origin master
+  480  git remote add origin git@github.com:GuptaDivij/cs131.git
+  481  git remote
+  482  git push --set-upstream origin master
+  483  git status
+  484  cd ..
+  485  ls
+  486  git init
+  487  git add .
+  488  git status
+  489   git remote add origin git@github.com:GuptaDivij/cs131.git
+  490  git commit -m "Finished worksheet2"
+  491  git status
+  492  git push
+  493  git status
+  494  git push origin 'main'
+  495  ls
+  496  cd Worksheet2
+  497  ls
+  498  git log
+  499  git status
+  500  cd ..
+  501  git status
+  502  git log
+  503  git show --color --pretty=format:%b 0b2e366c047f1013f390d719a5c639d1ccf07bc8
+  504  git add *
+  505  git status
+  506  git commit -m "Worksheet2"
+  507  git pull
+  508  git status
+  509  git ls-files
+  510  cd Worksheet2
+  511  git init
+  512  git status
+  513  git add .
+  514  git status
+  515  cd ..
+  516  git add -f Worksheet2/cmds.log
+  517  git add -f ./Worksheet2/cmds.log
+  518   git rm --cached Worksheet2
+  519  git status
+  520  ls
+  521  git add --all
+  522  git status
+  523  git help submodule
+  524  git rm --cached Worksheet2
+  525  l
+  526  ls
+  527  git status
+  528  cd ..
+  529  git branch
+  530  cd cs131/
+  531  git branch
+  532  git info
+  533  git rm -r --cached Worksheet2
+  534  ls
+  535  git rm -r --cached Worksheet2/
+  536  git rm -r Worksheet2
+  537  git status
+  538  git add Worksheet2/
+  539  git rm --cached Worksheet2
+  540  git commit -m "Remove Worksheet2 from tracking"
+  541  git push
+  542  git status
+  543  git add Worksheet2/
+  544  git rm --cached -r Worksheet2/
+  545  git rm --cached -r -f Worksheet2/
+  546  git commit -m "Remove Worksheet2 from Git tracking"
+  547  git add Worksheet2/
+  548  git commit -m "Add Worksheet2 directory and its contents"
+  549  git push origin master
+  550  git push origin main
+  551  git rm --cached Worksheet2
+  552  git commit -m "Remove Worksheet2 from Git tracking"
+  553  git status
+  554  cd Worksheet2/
+  555  ls
+  556  vi cmds.log 
+  557  git status
+  558  ls
+  559  vi counts.txt 
+  560  ls
+  561  rm 'Global YouTube Statistics.csv' 
+  562  ls
+  563  git status
+  564  cd ..
+  565  git status
+  566  git add Worksheet2/cmds.log
+  567  git add Worksheet2/counts.txt
+  568  git add Worksheet2/Global YouTube Statistics.csv
+  569  git status
+  570  git add Worksheet2
+  571  git rm --cached Worksheet2
+  572  git rm -f --cached Worksheet2
+  573  git status
+  574  git commit -m "added files in worksheet2" 
+  575  cd Worksheet2/
+  576  git status
+  577  cd ..
+  578  git status
+  579  git add Worksheet1 
+  580  git status
+  581  git rm --cached -r Worksheet2/
+  582  ls
+  583  cd cs131/
+  584  ls
+  585  git commit -m "Changed"
+  586  git push
+  587  cd Worksheet2
+  588  ls
+  589  cd ..
+  590  mkdir Worksheet3
+  591  ls
+  592  cd cs131/
+  593  ls
+  594  git rm Worksheet2/
+  595  git status
+  596  git rm --cached -r Worksheet2/
+  597  git init
+  598  git rm --cached -r Worksheet2/
+  599  git log
+  600  cd cs131/
+  601  ls
+  602  cs Worksheet3
+  603  cd Worksheet3
+  604  ls
+  605  cd ..
+  606  mv Worksheet2/counts.txt Worksheet3
+  607  mv Worksheet2/cmds.log Worksheet3
+  608  ls
+  609  cd Worksheet2
+  610  ls
+  611  cd ..
+  612  rm -r Worksheet2
+  613  ls
+  614  cd Worksheet3
+  615  ls
+  616  cd ..
+  617  mv Worksheet3 Worksheet2
+  618  ls
+  619  cd Worksheet2
+  620  ls
+  621  cd ..
+  622  git init
+  623  git add .
+  624  git status
+  625  git commit -m "Added Worksheet2"
+  626  git push origin main
+  627  git status
+  628  cd Worksheet2
+  629  vi cmds.log 
+  630  cat cmds.log
+  631  vi counts.txt 
+  632  cd ..
+  633  git add .
+  634  git commit -m "Finished Worksheet2"
+  635  git push
+  636  ls
+  637  cs131
+  638  cd cs131
+  639  ls
+  640  cd Worksheet2
+  641  ls
+  642  cat cmds.log
+  643  history
+  644  rm cmds.log
+  645  ls
+  646  history > cmds.log
+  647  cat cmds.log
+  648  cd ..
+  649  git status
+  650  git commit -m "updated the cmds file"
+  651  git add .
+  652  git commit -m "updated the cmds file"
+  653  git status
+  654  git push
+  655  history
+  656  cd cs131/
+  657  ls
+  658  mkdir Worksheet3
+  659  cd Worksheet3
+  660  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  661  man sort
+  662  cat Global\ YouTube\ Statistics.csv 
+  663  man sort
+  664  sort -k Global\ YouTube\ Statistics.csv 
+  665  vi Global\ YouTube\ Statistics.csv 
+  666  sort -k 16 Global\ YouTube\ Statistics.csv 
+  667  vi Global\ YouTube\ Statistics.csv 
+  668  man sort -t
+  669  cat Global\ YouTube\ Statistics.csv 
+  670  vi Global\ YouTube\ Statistics.csv
+  671  sort -k 16 Global\ YouTube\ Statistics.csv > sortedHighestEarning.txt
+  672  ls
+  673  cat sortedHighestEarning.txt 
+  674  vi sortedHighestEarning.txt 
+  675  rm sortedHighestEarning.txt 
+  676  ls
+  677  rm Gl
+  678  rm Global\ YouTube\ Statistics.csv 
+  679  ls
+  680  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  681  sort -k 16 Global\ YouTube\ Statistics.csv > highestMonthlyEarner.txt
+  682  vi highestMonthlyEarner.txt 
+  683  sort -kn 16 Global\ YouTube\ Statistics.csv > highestMonthlyEarnerNum.txt
+  684  sort -nk 16 Global\ YouTube\ Statistics.csv > highestMonthlyEarnerNum.txt
+  685  vi highestMonthlyEarnerNum
+  686  ls
+  687  vi highestMonthlyEarnerNum.txt 
+  688  rm highestMonthlyEarner.txt 
+  689  rm highestMonthlyEarnerNum.txt 
+  690  ls
+  691  sort -nrk 16 Global\ YouTube\ Statistics.csv > highestMonthlyEarner.txt
+  692  vi highestMonthlyEarner.txt 
+  693  man sort
+  694  rm highestMonthlyEarner.txt 
+  695  vi hi
+  696  vi highestMonthlyEarner.txt 
+  697  rm highestMonthlyEarner.txt 
+  698  vi highestMonthlyEarner.txt 
+  699  man sort
+  700  ls
+  701  sort -rk 16 Global\ YouTube\ Statistics.csv > highest.txt
+  702  vi highest.txt 
+  703  rm highest.txt 
+  704  ls
+  705  sort -n k16 Global\ YouTube\ Statistics.csv > highest.txt
+  706  sort -nk16 Global\ YouTube\ Statistics.csv > highest.txt
+  707  vi hi
+  708  vi highest.txt 
+  709  sort -nrk16 Global\ YouTube\ Statistics.csv > highest.txt
+  710  rm highest.txt 
+  711  sort -nrk16 Global\ YouTube\ Statistics.csv > highest.txt
+  712  vi highest.txt 
+  713  rm highest.txt 
+  714  sort -k 16 Global\ YouTube\ Statistics.csv -nr > highest.txt
+  715  vi highest.txt 
+  716  vi Global\ YouTube\ Statistics.csv 
+  717  rm highest.txt 
+  718  sort -nr -k 16 Global\ YouTube\ Statistics.csv > ab.txt
+  719  vi ab.txt
+  720  sort -nr -k 15 Global\ YouTube\ Statistics.csv > abc.txt
+  721  vi abc.txt 
+  722  sort -k 15nr Global\ YouTube\ Statistics.csv > abdc.txt
+  723  vi abdc.txt 
+  724  sort -k 16rn Global\ YouTube\ Statistics.csv > abdec.txt
+  725  vi abdec.txt 
+  726  rm abc.txt 
+  727  ls
+  728  rm abdc.txt
+  729  rm ab.txt 
+  730  rm abdec.txt 
+  731  ls
+  732  cd cs131/
+  733  cd Worksheet3
+  734  ls
+  735  sort -k16,16nr Global\ YouTube\ Statistics.csv >> highestMonthlyEarner.txt
+  736  vi highestMonthlyEarner.txt 
+  737  rm highestMonthlyEarner.txt 
+  738  ls
+  739  sort -k15,15nr Global\ YouTube\ Statistics.csv >> highestMonthlyEarner.txt
+  740  vi highestMonthlyEarner.txt 
+  741  rm highestMonthlyEarner.txt 
+  742  ls
+  743  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  744  sort -t',' -k16,16nr Global\ YouTube\ Statistics.csv > sorted_youtube.csv
+  745  grep "United States" 'Global YouTube Statistics.csv' > usa.txt
+  746  vi usa.txt 
+  747  rm usa.txt 
+  748  grep "United States" 'sorted_youtube.csv' > usa.txt
+  749  vi usa.txt 
+  750  man head
+  751  head -n 1 'Global YouTube Statistics.csv'| cut -d',' -f2 > ws3.txt
+  752  vi ws3.txt 
+  753  rm ws3.txt 
+  754  head -n 1 'usa.txt'| cut -d',' -f2 > ws3.txt
+  755  vi ws3.txt 
+  756  grep "United Kingdom" 'sorted_youtube.csv' > uk.txt
+  757  head -n 1 'uk.txt'| cut -d',' -f2 > ws3.txt
+  758  vi ws3.txt 
+  759  u
+  760  -u
+  761  head -n 1 'usa.txt'| cut -d',' -f2 > ws3.txt
+  762  vi ws3.txt 
+  763  head -n 1 'uk.txt'| cut -d',' -f2 >> ws3.txt
+  764  vi ws3.txt 
+  765  grep "India" 'sorted_youtube.csv' > ind.txt
+  766  head -n 1 'ind.txt'| cut -d',' -f2 >> ws3.txt
+  767  vi ws3.txt 
+  768  cat ws3.txt 
+  769  sort -t',' -k3,3nr Global\ YouTube\ Statistics.csv > sorted_subscibers.csv
+  770  grep "Sports" 'sorted_subscribers.csv' | head -n 1 |cut -d',' -f2 >> ws3.txt
+  771  grep "Sports" 'sorted_subscibers.csv' | head -n 1 |cut -d',' -f2 >> ws3.txt
+  772  cat ws3.txt 
+  773  grep "Education" 'sorted_subscibers.csv' | head -n 1 |cut -d',' -f2 >> ws3.txt
+  774  grep "Entertainment" 'sorted_subscibers.csv' | head -n 1 |cut -d',' -f2 >> ws3.txt
+  775  vi ws3.txt 
+  776  cat ws3.txt 
+  777  cd ..
+  778  cd Worksheet3
+  779  ls
+  780  cd ..
+  781  cd cs131/
+  782  cd Worksheet3
+  783  ls
+  784  history
+  785  history > cmds.log
