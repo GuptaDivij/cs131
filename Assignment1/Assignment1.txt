@@ -1,11 +1,13 @@
 1) For making the directory I used the command - mkdir Assignment1
 2) Output : /bin/bash 
    Command : echo $SHELL
-3) UID : 1151(divijf23), Groups : 1151(divijf23),77(S77) 
+3) Output : /mnt/scratch/FA23_CS131_Ashish/divijf23
+   Command : echo $HOME
+4) UID : 1151(divijf23), Groups : 1151(divijf23),77(S77) 
    Command : id, can also be found in /etc/passwd
-4) cd : yes, ls : yes, ls -l : yes, make a new file : no
-5) Done
+5) cd : yes, ls : yes, ls -l : yes, make a new file : no
 6) Done
-7) Memory : 73080512, RAM(cache) : 59024832  
-8) OS version : "8.6 (Ootpa)", File : /etc/os-release/
-9) Permission is rwx (read write and execute) 
+7) Done
+8) Memory : 73080512, RAM(cache) : 59024832  
+9) OS version : "8.6 (Ootpa)", File : /etc/os-release/
+10) Permission is rwx (read write and execute) 
