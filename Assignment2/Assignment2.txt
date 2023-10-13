@@ -1,0 +1,54 @@
+1) Done executing the command
+  a) By executing the command we are trying to find all files of type of f, which means regular files in the /etc directory. Once we have the files, we want the data to be stored in one.txt and all the errors in two.txt.
+  b) one.txt has everything - all the files. 
+   two.txt has all the errors regarding the files we could not access, in this case it is mainly permission denied files.
+
+2) The top 3 are - 
+	March 2006 - 15 channels
+ 	Jul 2014 - 13 channels
+	Aug 2014 - 12 channels 
+  The commands were - 
+  1) cut -d',' -f20,21 Global\ YouTube\ Statistics.csv > chanelsCreatedMonth.txt
+  The d is delimeter which specifies that comma separates the values into columns - > 20 and 21 are column numbers
+  2) sort -t',' -k2,2 -k1,1n chanelsCreatedMonth.txt > sorted.txt
+  This sorts the second and the first column - the first one based on number and puts it in another file
+  3) uniq -c sorted.txt | sort -nr > sortedCount.txt 
+  This finds unique pairs and shows the count - this count is sorted in reverse order and transfererd to the file
+
+3) The command is ps -u divijf23
+   The output is - 
+	PID TTY          TIME CMD
+	3527018 ?        00:00:01 systemd
+	3527020 ?        00:00:00 (sd-pam)
+	3527026 ?        00:00:00 sshd
+	3527029 pts/77   00:00:00 bash
+	3529800 pts/77   00:00:00 script
+	3529802 pts/93   00:00:00 bash
+	3557040 pts/93   00:00:00 ps 
+
+4)
+  a) Done
+  b) I noticed an extra vi process with PID 3591907
+  c) Done
+  d) Here's the output - 
+	 PID TTY          TIME CMD
+	3527018 ?        00:00:01 systemd
+	3527020 ?        00:00:00 (sd-pam)
+	3527026 ?        00:00:00 sshd
+	3527029 pts/77   00:00:00 bash
+	3529800 pts/77   00:00:00 script
+	3529802 pts/93   00:00:00 bash
+	3587220 ?        00:00:00 sshd
+	3587309 pts/115  00:00:00 bash
+	3598162 pts/115  00:00:00 ps  
+  I see some extra processes than before
+
+5) init is the process that is run when the computer boots - it is the first process and hence it's pid is 1. 
+   We can find it by ps -p 1 ---> first process or generally by ps -aux and then grepping the systemd and finding the first process
+
+6) ps aux is the command which shows a compresensive list of all the processes running, let's see it step by step -
+	ps = the status of the processes 
+	a = it shows all the processes for all users
+	u = it shows user information like username etc
+	x = it shows even the processes that are outside the tty (terminal)
+   Everything together makes sure that we get a full list of all the processes and related information.  
