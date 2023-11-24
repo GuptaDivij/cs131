@@ -1,0 +1,7 @@
+Chinese Average time = 4.54866 minutes
+Korean Average time = 3.27514 minutes
+Japanese Average time = 3.86159 minutes
+
+Chinese Explicit = 0; Total = 4; Propotion = 0
+Korean Explicit = 25; Total = 318; Propotion = 0.0786164
+Japanese Explicit = 1; Total = 144; Propotion = 0.00694444
