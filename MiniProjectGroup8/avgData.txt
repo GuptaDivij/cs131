@@ -5,3 +5,14 @@ Japanese Average time = 3.86159 minutes
 Chinese Explicit = 0; Total = 4; Propotion = 0
 Korean Explicit = 25; Total = 318; Propotion = 0.0786164
 Japanese Explicit = 1; Total = 144; Propotion = 0.00694444
+
+Explicit and Non Explicit Averages - 
+Korean exp - 3.05781
+Non - 3.29531
+
+Jap exp - 4.08733
+Non - 3.86002
+
+Chinese exp - No exp song
+Non - 4.54866
+
